@@ -1,6 +1,6 @@
 {
     "name": "laramind/math",
-    "description": "A test package",
+    "description": "Sample package test",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,10 +9,10 @@
             "email": "forge405@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "autoload":{
+    "minimum-stability": "stable",
+    "autoload": {
         "psr-4": {
-            "Laramind\\Math" : "src/",
+            "Laramind\\Math\\": "src/"
         }
     },
     "extra": {
