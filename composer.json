@@ -1,0 +1,26 @@
+{
+    "name": "laramind/math",
+    "description": "A test package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sidrit Trandafili",
+            "email": "forge405@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "Laramind\\Math" : "src",
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": {
+                "Laramind\\Math\\MathServiceProvider"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
