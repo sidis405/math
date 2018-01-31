@@ -9,12 +9,12 @@
             "email": "forge405@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "autoload":{
         "psr-4": {
-            "Laramind\\Math" : "src",
+            "Laramind\\Math" : "src/",
         }
     },
-    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
