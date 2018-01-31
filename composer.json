@@ -14,13 +14,13 @@
             "Laramind\\Math" : "src",
         }
     },
+    "minimum-stability": "dev",
     "extra": {
         "laravel": {
-            "providers": {
+            "providers": [
                 "Laramind\\Math\\MathServiceProvider"
-            }
+            ]
         }
     },
-    "minimum-stability": "dev",
     "require": {}
 }
