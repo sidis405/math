@@ -9,7 +9,7 @@
             "email": "forge405@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Laramind\\Math\\": "src/"
@@ -18,7 +18,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Laramind\\Math\\MathServiceProvider"
+                "Laramind\\Math\\Providers\\MathServiceProvider"
             ]
         }
     },
